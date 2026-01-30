@@ -26,6 +26,7 @@ function App() {
   if (!pokemon || !pokemons.length) {
     return <span>Loading ...</span>;
   }
+  console.log(pokemons[index])
 
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
